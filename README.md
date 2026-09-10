@@ -1,9 +1,19 @@
-# termux
+# Termux Auto-Setup
 
-This repository contains configuration for Termux .
+This repository provides an automated setup script to configure a fresh Termux environment quickly and efficiently.
 
-## Synced Files
-- `.termux/`: Configuration directory (including `font.ttf` from `s3neo`).
-- `.zshrc`: Zsh configuration file.
-- `.p10k.zsh`: Powerlevel10k configuration file.
-- `install-list`: A list of installed packages from the remote device.
+## Features
+- Automated storage setup.
+- Essential package installation (`bat`, `git`, `zsh`, `lf`, etc.).
+- Dotfiles management with automatic backups.
+- Oh-My-Zsh & Powerlevel10k theme configuration.
+- System services automation (sshd, wakelock).
+- Optional ADB over WiFi setup.
+
+## Usage
+To use the setup script, run the following command in your Termux terminal:
+
+```bash
+./setup.sh
+```
+Make sure to grant permissions when prompted by the script.
