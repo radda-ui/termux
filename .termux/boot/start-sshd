@@ -1,6 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/sh
 termux-wake-lock
 sshd
-su -c "dscreen" &
-su -c "dinput" &
 

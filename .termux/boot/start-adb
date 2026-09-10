@@ -1,3 +1,3 @@
 #!/data/data/com.termux/files/usr/bin/sh
-su -c "setprop service.adb.tcp.port 5555"
+su -c "setprop service.adb.tcp.port 37888"
 su -c "stop adbd && start adbd"

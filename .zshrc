@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 alias py="python3"
 alias ls="lsd"
 alias ll="lsd -l"
-alias la="lsd -a"
+alias lla="lsd -la"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

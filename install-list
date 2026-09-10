@@ -2,16 +2,12 @@ bat
 busybox
 coreutils
 curl
-fastfetch
 file
 git
 lsd
 openssh
-root-repo
 termux-api
 termux-services
 termux-tools
-unzip
-util-linux
 wget
 zsh
